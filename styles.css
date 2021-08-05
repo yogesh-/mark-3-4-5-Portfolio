@@ -48,7 +48,28 @@ color: white;
         list-style: none;
 }
 
-.non-inline{
+.list-inline{
         display: inline;
         padding: 0rem 1rem;
+}
+
+.navigation{
+        background-color: var(--primary-color);
+        color: white;
+        padding: 1rem;
+        border-bottom-left-radius: 1rem;
+}
+
+.navigation .link{
+        color: white;
+        text-align: ;
+}
+
+.navigation .nav-pills{
+        text-align: right;
+}
+
+.navigation .nav-brand{
+        font-weight: bolder;
+        font-size: 1.1rem;
 }
