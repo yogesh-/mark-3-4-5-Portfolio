@@ -6,6 +6,7 @@ body {
 
 :root{
         --primary-color:#FF8877ed;
+        --dark-gray:#1469f3;
 }
 
 hr {
@@ -72,4 +73,22 @@ color: white;
 .navigation .nav-brand{
         font-weight: bolder;
         font-size: 1.1rem;
+}
+
+/* Header */
+
+.hero{
+        padding: 2rem;
+}
+
+.hero .hero-image{
+        max-width: 400px;
+        margin: auto;
+        display: block;
+}
+
+.hero .hero-heading{
+        color:var(--dark-gray);
+        padding-top:1rem;
+        text-align: center;
 }
