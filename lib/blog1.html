@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="/styles.css" rel="stylesheet"/>
+</head>
+<body>
+    
+<!-- Navigation -->
+
+<nav class="navigation">
+
+    <div class="nav-brand">NeoG Developer.</div>
+
+
+        <ul class="non-bullet nav-pills">
+            <li class="list-inline">
+                <a class="link" href="/index.html">Home</a>
+            </li>
+            <li class="list-inline">    
+                <a class="link" href="/lib/projects.html">Projects</a>
+            </li>
+            <li class="list-inline">
+                <a class="link link-active" href="/lib/blogs.html">Blog</a>
+            </li>
+        </ul>
+</nav>
+
+<!-- Content -->
+
+<div class="nato container container-center">
+<h3>
+    How MDN’s autocomplete search works
+</h3>
+<small>11 Aug 2021 | Peter Bengtsson </small>
+
+<p style="text-align:center">
+    Last month, Gregor Weber and I added an autocomplete search to MDN Web Docs, that allows you to quickly jump straight to the document you’re looking for by typing parts of the document title. 
+    This is the story about how that’s implemented. 
+    If you stick around to the end, I’ll share an “easter egg” feature that, once you’ve learned it, will make you look really cool at dinner parties. Or, perhaps you just want to navigate MDN faster than mere mortals.
+</p>
+
+<img src="/images/css.png">
+
+<p style="text-align:center">
+    In its simplest form, the input field has an onkeypress event listener that filters through a complete list of every single document title (per locale). At the time of writing, there are 11,690 different document titles (and their URLs) for English US. You can see a preview by opening https://developer.mozilla.org/en-US/search-index.json. Yes, it’s huge, but it’s not too huge to load all into memory. After all, together with the code that does the searching, it’s only loaded when the user has indicated intent to type something. And speaking of size, because the file is compressed with Brotli, the file is only 144KB over the network.
+</p>
+
+</div>
+
+
+
+
+</body>
+</html>
