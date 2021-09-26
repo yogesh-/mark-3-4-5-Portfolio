@@ -7,6 +7,7 @@ body {
 
 .nato{
         text-align: center;
+        
 }
 
 :root{
@@ -26,7 +27,7 @@ hr {
 }
 
 .container-center{
-        max-width: 600px;
+        max-width: 900px;
         margin: auto;
 
 

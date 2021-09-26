@@ -33,20 +33,43 @@
 
 <div class="nato container container-center">
 <h3>
-    How MDN’s autocomplete search works
+    <!-- Important concepts to get started in Programming -->
+    Advantages and Disadvantages of JavaScript
+
 </h3>
-<small>11 Aug 2021 | Peter Bengtsson </small>
+<small>11 Aug 2021 | Yogesh Gupta - Dummy Blog </small>
 
 <p style="text-align:center">
-    Last month, Gregor Weber and I added an autocomplete search to MDN Web Docs, that allows you to quickly jump straight to the document you’re looking for by typing parts of the document title. 
-    This is the story about how that’s implemented. 
-    If you stick around to the end, I’ll share an “easter egg” feature that, once you’ve learned it, will make you look really cool at dinner parties. Or, perhaps you just want to navigate MDN faster than mere mortals.
+    
 </p>
 
-<img src="/images/css.png">
+
 
 <p style="text-align:center">
-    In its simplest form, the input field has an onkeypress event listener that filters through a complete list of every single document title (per locale). At the time of writing, there are 11,690 different document titles (and their URLs) for English US. You can see a preview by opening https://developer.mozilla.org/en-US/search-index.json. Yes, it’s huge, but it’s not too huge to load all into memory. After all, together with the code that does the searching, it’s only loaded when the user has indicated intent to type something. And speaking of size, because the file is compressed with Brotli, the file is only 144KB over the network.
+
+    Advantages of JavaScript <br>
+    <ol>
+<li>Speed - Client-side JavaScript is very fast because it can be run immediately within the client-side browser. Unless outside resources are required, JavaScript is unhindered by network calls to a backend server.
+</li>        
+
+ <li>Simplicity. JavaScript is relatively simple to learn and implement.</li>
+
+<li> JavaScript is used everywhere on the web.</li>
+
+<li>Interoperability. JavaScript plays nicely with other languages and can be used in a huge variety of applications.</li>
+
+<li>Server Load. Being client-side reduces the demand on the website server.</li>
+
+<li>Gives the ability to create rich interfaces.</li><br></ol>
+
+<img src="/images/javascript-illustration.png">
+
+Disadvantages of JavaScript<br>
+<ol>
+    <li>Client-Side Security. Because the code executes on the users’ computer, in some cases it can be exploited for malicious purposes. This is one reason some people choose to disable Javascript.</li>
+
+    <li>Browser Support. JavaScript is sometimes interpreted differently by different browsers. This makes it somewhat difficult to write cross-browser code.</li>
+</ol>
 </p>
 
 </div>
